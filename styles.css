@@ -1,0 +1,150 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .body-wrapper{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .image-preview {
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .bg-primary {
+    background-color: #fe6262 !important;
+    color: white !important;
+  }
+  
+  .b-radius {
+    border-radius: 8px;
+  }
+  
+  .tie-list {
+    display: none;
+  }
+  
+  .sm-img-wrapper {
+   display: flex;
+   align-items: center;
+    border: 1px solid #fe6262;
+    border-radius: 8px;
+    padding: 4px;
+    height: 70px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .sm-img-wrapper:hover{
+      transform: scale(1.1);
+  }
+  
+  .my-svg {
+    fill: green; /* Change the fill color to green */
+  }
+  
+  .flower-10 {
+    width: 2rem;
+  }
+  
+  .flower-btq {
+    width: 25px;
+    cursor: pointer;
+  }
+  
+  .v-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+  }
+  
+  .display-none {
+    display: none;
+  }
+  
+  .btn-outline-primary {
+    border: 1px solid #fe6262;
+    color: #fe6262;
+    font-weight: 600;
+  }
+  .btn-outline-primary:hover {
+    background-color: #fe6262;
+    border: 1px solid #fe6262;
+  }
+  
+  
+  .btn-primary{
+      background-color: #fe6262 !important;
+    border: 1px solid #fe6262;
+  
+  }
+  
+  .btn-primary:hover {
+      background-color: #fe6262;
+      border: 1px solid #fe6262;
+  }
+    
+  .tie-overlay {
+    position: absolute;
+    bottom: 50px;
+    left: 33%;
+  }
+  
+  .tie-img {
+    width: 75px;
+  }
+  
+  .flower-overlay {
+    position: absolute;
+  }
+  
+  .flower-img {
+    width: 75px;
+  }
+  
+  
+  .total-wrapper{
+      display: none;
+  }
+  
+  .bill-item{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+  }
+  
+  .finish-btn{
+      display: none;
+  }
+  
+  
+  .payment-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 400px;
+    min-height: 500px;
+    border-radius: 8px;
+    border: 1px solid #fe6262;
+    padding: 16px;
+  
+  }
+  
+  .bill-amt{
+ 
+    font-size: 20px;
+    font-weight: 700;
+
+
+  }
+  
+  
+  
+  
+  
+  
